@@ -4,11 +4,7 @@ A relational schema for a warehouse inventory and sales system, in SQLite.
 
 ## Why
 
-I worked on a Java inventory management system for a university software
-engineering course. It shipped with a working UI, a JDBC data-access layer, and
-a schema that declared **no foreign keys, no `UNIQUE`, and no `NOT NULL`** —
-every relationship existed by convention and was enforced by the application, or
-not at all.
+I worked on a Java inventory management system for a university software engineering course (the original is a private team repo). It shipped with a working UI, a JDBC data-access layer, and a schema that declared no foreign keys, no UNIQUE, and no NOT NULL — every relationship existed by convention and was enforced by the application, or not at all.
 
 Auditing the database that shipped with it:
 
